@@ -68,7 +68,7 @@ jobs:
 
     - name: Dockerize application
       run: |
-        docker build -t vilasvarghese/test .
+        docker build -t swatisood598/test .
         # Push the Docker image to a container registry if needed
         # docker push your-registry/your-image-name
 
